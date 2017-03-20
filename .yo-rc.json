@@ -1,0 +1,29 @@
+{
+  "generator-jhipster": {
+    "jhipsterVersion": "4.0.6",
+    "baseName": "ExtraBasic",
+    "packageName": "com.hamermesh.yeah",
+    "packageFolder": "com/hamermesh/yeah",
+    "serverPort": "8080",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "rememberMeKey": "e16c2c65cc44042e64d082684f3e35cf0c645adc",
+    "clientFramework": "angular1",
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "applicationType": "monolith",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "enableTranslation": false
+  }
+}

@@ -5,9 +5,9 @@
         .module('extraBasicApp')
         .controller('RecordController', RecordController);
 
-    RecordController.$inject = ['Record', 'ParseLinks', 'AlertService', 'paginationConstants', 'pagingParams'];
+    RecordController.$inject = ['Record', 'ParseLinks', 'AlertService', 'paginationConstants', 'pagingParams', '$state'];
 
-    function RecordController(Record, ParseLinks, AlertService, paginationConstants, pagingParams) {
+    function RecordController(Record, ParseLinks, AlertService, paginationConstants, pagingParams, $state) {
 
         var vm = this;
 

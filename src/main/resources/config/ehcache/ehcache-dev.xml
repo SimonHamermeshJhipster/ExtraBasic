@@ -20,5 +20,7 @@
 
     <cache alias="com.hamermesh.yeah.domain.User.persistentTokens" uses-template="simple"/>
 
+    <cache alias="com.hamermesh.yeah.domain.Record" uses-template="simple"/>
+
     <!-- jhipster-needle-ehcache-add-entry -->
 </config>

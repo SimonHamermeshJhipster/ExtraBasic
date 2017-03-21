@@ -1,0 +1,22 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "record",
+            "otherEntityName": "record",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "type"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20170320235953",
+    "dto": "no",
+    "service": "serviceClass",
+    "entityTableName": "action",
+    "pagination": "infinite-scroll"
+}
